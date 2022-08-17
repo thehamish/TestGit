@@ -6,11 +6,15 @@
 
 let title, description, format;
 let message = document.querySelector('.FirstCommit');
+title = document.querySelector('.title');
 // title = "Hamish's First Commit";
 
 console.log(title,description,format,message);
-message.textContent = "Hello";
-document.write('yes');
+message.textContent = "HLP•22";
+title.textContent = "1 First Project";
+// document.write('yes');
+
+
 
 
 

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
+
+body {
+    background-color: darkolivegreen;
+    font-size: 60px;
+    font-family: 'Helvetica';
+    padding: 10px;
+}
+
+.container {
+    display:grid;
+    grid-template-columns:auto;
+    /* column-gap: 10px; */
+    /* row-gap: 10px; */
+    /* background: grey; */
+    gap:10px;
+    padding:10px;
+}
+
+.container div {
+    /* background-color: aliceblue; */
+    border: 1px solid black;
+    height: 100px;
+    padding: 10px;
+    transition: 0.5s all;
+}
+
+.container div:hover {
+    background-color: antiquewhite;
+    color: darkolivegreen;
+}
