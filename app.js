@@ -11,7 +11,7 @@ title = document.querySelector('.title');
 
 console.log(title,description,format,message);
 message.textContent = "HLP•22";
-title.textContent = "1 First Project";
+title.textContent = "1";
 // document.write('yes');
 
 
