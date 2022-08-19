@@ -13,7 +13,7 @@ body {
 
 .container {
     display:grid; /* initializes grid */
-    grid-template-columns:auto; /* makes number of columns */
+    grid-template-columns:auto auto; /* makes number of columns */
     /* column-gap: 10px; */
     /* row-gap: 10px; */
     /* background: grey; */
