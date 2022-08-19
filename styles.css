@@ -5,7 +5,7 @@
   }  
 
 body {
-    background-color: darkolivegreen;
+    background-color: rgb(183, 248, 235);
     font-size: 60px;
     font-family: 'Helvetica';
     padding: 10px;
@@ -24,9 +24,9 @@ body {
 .container div {
     /* background-color: aliceblue; */
     border: 1px solid black;
-    height: 100px;
+    /* height: 100px; */
     padding: 10px;
-    transition: 0.5s all;
+    /* transition: 0.5s all;   */
 }
 
 .container div:hover {
